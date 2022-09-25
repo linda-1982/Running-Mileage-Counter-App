@@ -1,0 +1,54 @@
+body {
+
+    background-image: url(/img/runner.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(238, 233, 233);
+    height:100vh;
+    max-width: 375px;
+}
+.container{
+   
+        
+        max-width: 80%;
+        margin: auto;
+        border: 3px solid rgb(228, 152, 165);
+        border-radius: 10px;
+    }
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid rgb(221, 218, 218);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgb(52, 168, 192);
+}
+
+#save-btn {
+    background: rgb(132, 79, 119);
+}
+#save-el{
+    color: rgb(237, 242, 251);
+    font-weight: bold;
+}
+
